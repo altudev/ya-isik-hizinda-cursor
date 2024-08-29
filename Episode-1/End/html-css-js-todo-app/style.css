@@ -1,0 +1,108 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #f9f5e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    border: 2px solid #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn,
+.edit-btn {
+    background-color: #f44336;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 0.9em;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn {
+    background-color: #2196F3;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.edit-btn:hover {
+    background-color: #1976D2;
+}
